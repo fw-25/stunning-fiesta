@@ -8,7 +8,7 @@ console.log(`Node.js ${process.version}`)
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.json({ msg: "Test on rahti fw-teaching" })
+    res.json({ msg: "Test on rahti fw-teaching..." })
 })
 
 
