@@ -13,3 +13,5 @@ Rename `.env-example` to `.env` to override the `MODE=production`set in the `Doc
 
 To run the container locally:
 `docker-compose up --build`
+
+Note: Due to a bug in OpenShift, the code may not be deployed automatically on push. If this is the case, delete the running pod after the successful build and a new one will be deployed.
