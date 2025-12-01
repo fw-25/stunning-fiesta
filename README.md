@@ -13,3 +13,5 @@ Rename `.env-example` to `.env` to override the `MODE=production`set in the `Doc
 
 To run the container locally:
 `docker-compose up --build`
+
+## foo!
